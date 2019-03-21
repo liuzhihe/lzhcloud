@@ -1,0 +1,11 @@
+
+server:
+  port: 9007
+
+spring:
+  application:
+    name: eureka-customer-feign
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:9001/eureka/,http://peer2:9002/eureka/,http://peer3:9003/eureka/
