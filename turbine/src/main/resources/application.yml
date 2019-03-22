@@ -1,0 +1,19 @@
+
+server:
+  port: 9009
+spring:
+  application:
+    name: turbine
+management:
+  port: 9010
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:9001/eureka/
+turbine:
+  app-config: eureka-customer-feign
+  cluster-name-expression: new String("default")
+  combine-host-port: true
+
+
+

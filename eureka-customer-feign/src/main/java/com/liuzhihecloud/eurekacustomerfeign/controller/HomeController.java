@@ -21,4 +21,9 @@ public class HomeController {
     public String hello(){
         return helloRomate.hello("liuzhihe");
     }
+
+    @GetMapping("helloManyPar")
+    public String helloManyPar(){
+        return helloRomate.helloMany("20","liuzhihe");
+    }
 }

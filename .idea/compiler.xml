@@ -10,7 +10,9 @@
         <module name="eureka-customer-feign" />
         <module name="eureka-product" />
         <module name="eureka-service" />
+        <module name="hystrix-dashboard" />
         <module name="liuzhihecloud" />
+        <module name="turbine" />
       </profile>
     </annotationProcessing>
   </component>

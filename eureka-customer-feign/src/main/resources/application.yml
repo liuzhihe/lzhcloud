@@ -9,3 +9,12 @@ eureka:
   client:
     service-url:
       defaultZone: http://peer1:9001/eureka/,http://peer2:9002/eureka/,http://peer3:9003/eureka/
+feign:
+  hystrix:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream

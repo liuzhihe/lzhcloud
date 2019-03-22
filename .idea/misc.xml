@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/eureka-product/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-customer/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-customer-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/turbine/pom.xml" />
       </list>
     </option>
   </component>

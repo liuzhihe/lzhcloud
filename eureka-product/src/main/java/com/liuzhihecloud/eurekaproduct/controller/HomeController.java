@@ -24,4 +24,9 @@ public class HomeController {
         logger.info(name);
         return "product: hello" + " " + name + " " + new Date();
     }
+    @GetMapping("/helloManyPar")
+    public String helloManyPar(@RequestParam String name,String age){
+        logger.info(name);
+        return "product: hello" + " " + name + " <<<<" + age + new Date();
+    }
 }
