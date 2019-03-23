@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a023f87-e706-48ec-b914-c1c3f2c853ea" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/eureka-customer-feign/src/main/java/com/liuzhihecloud/eurekacustomerfeign/feignall/hystrix/HelloRomateHystrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configfiles/config-client-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configfiles/config-client-test.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-customer-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-customer-feign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-customer-feign/src/main/java/com/liuzhihecloud/eurekacustomerfeign/EurekaCustomerFeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-customer-feign/src/main/java/com/liuzhihecloud/eurekacustomerfeign/EurekaCustomerFeignApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-customer-feign/src/main/java/com/liuzhihecloud/eurekacustomerfeign/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-customer-feign/src/main/java/com/liuzhihecloud/eurekacustomerfeign/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-customer-feign/src/main/java/com/liuzhihecloud/eurekacustomerfeign/feignall/HelloRomate.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-customer-feign/src/main/java/com/liuzhihecloud/eurekacustomerfeign/feignall/HelloRomate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-customer-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-customer-feign/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-customer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-customer/src/main/java/com/liuzhihecloud/eurekacustomer/EurekaCustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-customer/src/main/java/com/liuzhihecloud/eurekacustomer/EurekaCustomerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-customer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-customer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-product/src/main/java/com/liuzhihecloud/eurekaproduct/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-product/src/main/java/com/liuzhihecloud/eurekaproduct/controller/HomeController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,39 +41,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EurekaCustomerFeignApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-customer-feign/src/main/java/com/liuzhihecloud/eurekacustomerfeign/EurekaCustomerFeignApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-customer-feign/src/main/java/com/liuzhihecloud/eurekacustomerfeign/controller/HomeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloRomate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-customer-feign/src/main/java/com/liuzhihecloud/eurekacustomerfeign/feignall/HelloRomate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hystrix-dashboard/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,11 +63,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/turbine/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="308">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config-client-dev.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configfiles/config-client-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config-client-test.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/configfiles/config-client-test.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config-client-prod.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configfiles/config-client-prod.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -177,6 +160,9 @@
         <option value="$PROJECT_DIR$/eureka-customer-feign/src/main/java/com/liuzhihecloud/eurekacustomerfeign/EurekaCustomerFeignApplication.java" />
         <option value="$PROJECT_DIR$/turbine/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/turbine/src/main/java/com/liuzhihecloud/turbine/TurbineApplication.java" />
+        <option value="$PROJECT_DIR$/configfiles/config-client-dev.yml" />
+        <option value="$PROJECT_DIR$/configfiles/config-client-prod.yml" />
+        <option value="$PROJECT_DIR$/configfiles/config-client-test.yml" />
       </list>
     </option>
   </component>
@@ -213,172 +199,7 @@
             <path>
               <item name="liuzhihecloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="liuzhihecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-customer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liuzhihecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liuzhihecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-customer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liuzhihecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liuzhihecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-customer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liuzhihecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liuzhihecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-customer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liuzhihecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liuzhihecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-customer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekacustomer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liuzhihecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liuzhihecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-customer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekacustomer" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liuzhihecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liuzhihecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-customer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liuzhihecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liuzhihecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-customer-feign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liuzhihecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liuzhihecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-customer-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liuzhihecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liuzhihecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-customer-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liuzhihecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liuzhihecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-customer-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liuzhihecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liuzhihecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-customer-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekacustomerfeign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liuzhihecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liuzhihecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-customer-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekacustomerfeign" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liuzhihecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liuzhihecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-customer-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekacustomerfeign" type="462c0819:PsiDirectoryNode" />
-              <item name="feignall" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liuzhihecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liuzhihecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-customer-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekacustomerfeign" type="462c0819:PsiDirectoryNode" />
-              <item name="feignall" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liuzhihecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liuzhihecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-customer-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liuzhihecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liuzhihecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="turbine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liuzhihecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liuzhihecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="turbine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liuzhihecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liuzhihecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="turbine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liuzhihecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liuzhihecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="turbine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liuzhihecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liuzhihecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="turbine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="turbine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liuzhihecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liuzhihecloud" type="462c0819:PsiDirectoryNode" />
-              <item name="turbine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="configfiles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -529,12 +350,12 @@
       <option name="presentableId" value="Default" />
       <updated>1553136548397</updated>
       <workItem from="1553136552184" duration="19617000" />
-      <workItem from="1553231261496" duration="11456000" />
+      <workItem from="1553231261496" duration="13168000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31073000" />
+    <option name="totallyTimeSpent" value="32785000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -883,8 +704,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/turbine/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="308">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configfiles/config-client-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configfiles/config-client-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configfiles/config-client-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
