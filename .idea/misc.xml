@@ -11,6 +11,10 @@
         <option value="$PROJECT_DIR$/eureka-customer-feign/pom.xml" />
         <option value="$PROJECT_DIR$/hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server-bus/pom.xml" />
+        <option value="$PROJECT_DIR$/config-clent-bus/pom.xml" />
       </list>
     </option>
   </component>

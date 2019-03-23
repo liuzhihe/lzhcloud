@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: config-server-bus
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/liuzhihe/lzhcloud
+          search-paths: configfiles
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+server:
+  port: 9013
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:9001/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        exclude: bus-refresh
+
+
+

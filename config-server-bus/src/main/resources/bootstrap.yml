@@ -1,0 +1,5 @@
+spring:
+  rabbitmq:
+    addresses: 139.199.204.225:5676
+    username: zhliu
+    password: 123$567

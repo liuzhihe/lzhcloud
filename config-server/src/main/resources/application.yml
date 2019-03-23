@@ -1,0 +1,18 @@
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/liuzhihe/lzhcloud
+          search-paths: configfiles
+server:
+  port: 9011
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:9001/eureka/,http://peer2:9002/eureka/,http://peer3:9003/eureka/
+
