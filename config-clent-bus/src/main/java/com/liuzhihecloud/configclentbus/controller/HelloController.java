@@ -21,4 +21,9 @@ public class HelloController {
     public String hello(){
         return  profile;
     }
+
+    @GetMapping("/hello1")
+    public String hello1(){
+        return  profile;
+    }
 }
