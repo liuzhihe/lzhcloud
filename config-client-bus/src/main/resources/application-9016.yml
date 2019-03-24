@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: config-client-bus
+server:
+  port: 9016

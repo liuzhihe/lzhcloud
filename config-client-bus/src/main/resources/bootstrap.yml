@@ -5,7 +5,11 @@ spring:
       profile: prod
       label: master
       discovery:
-        service-id: CONFIG-SERVER
+        service-id: CONFIG-SERVER-BUS
+        enabled: true
+    bus:
+      enabled: true
+      trace:
         enabled: true
   rabbitmq:
       addresses: 139.199.204.225:5676
@@ -15,3 +19,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://peer1:9001/eureka/,http://peer2:9002/eureka/,http://peer3:9003/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh

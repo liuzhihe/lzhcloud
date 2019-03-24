@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="config-clent-bus" />
         <module name="config-client" />
+        <module name="config-client-bus" />
         <module name="config-server" />
         <module name="config-server-bus" />
         <module name="eureka-customer" />
@@ -19,5 +19,11 @@
         <module name="turbine" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-clent-bus" target="1.8" />
+      <module name="eureka-product" target="1.8" />
+      <module name="eureka-service" target="1.8" />
+      <module name="liuzhihecloud" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
